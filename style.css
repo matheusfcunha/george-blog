@@ -1,7 +1,8 @@
 /* general */
 
 body {
- background: #FDFFFC;
+  background: #FDFFFC;
+  margin: 0;
 }
 
 @font-face {
@@ -16,8 +17,6 @@ header {
   border-bottom: solid 1px;
   background: #e8eff5;
   width: 100%;
-  position: relative;
-  left: 8px;
 }
 
 header > img {
@@ -67,6 +66,7 @@ aside {
 .sidebar a {
   text-decoration: none;
   color: #FDFFFC;
+  margin: 10px;
 }
 
 .sidebar li:nth-child(1)  {
@@ -79,7 +79,6 @@ aside {
 main {
   margin-top: 20px;
   margin-left: 160px;
-  height: 100%;
 }
 
 .author-info {
@@ -87,10 +86,11 @@ main {
   width: 12.5em;
   border: solid black 1px;
   margin-left: 15em;
+  margin-top: 1em;
   display: inline-block;
   overflow: hidden;
   background: #e8eff5;
-  padding: 10px;
+  padding: 15px;
 }
 
 .author-info img {
@@ -123,13 +123,23 @@ main {
   text-align: center;
   line-height: 90px;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Pacifico';
 }
 
-
 article {
-  padding: 5px;
+  padding: 2rem 6rem;
+  font-size: 1.1rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+article h3 {
+  color: #F71735;
+}
+
+article h2 {
+  color: #F71735;
 }
 
 /* footer */
